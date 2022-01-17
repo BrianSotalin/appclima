@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOTA Clima</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="contenedor">
+        <input type="text" id="ciudad" > 
+  
+        <button type="button"  onclick="getValueInput() " id="busqueda"> 
+            <i class="fas fa-search"></i>
+        </button> 
+        
+        <p id="valueInput"></p> 
+        <div id="caja1">
+            <h1 id="tmp-valor"></h1>
+            <h1 id="tmp-descripcion"></h1>
+        </div>
+        <div id="caja2">
+            <h2 id="ubicacion"></h2>
+            <img src="" alt="" id="icono-animado">
+        </div>
+        <div id="caja3">
+            <h3 id="text-inicio">Ingrese una ciudad</h3>
+            <h1 id="viento"></h1>
+        </div>
+<button onclick="location.reload()" id="btn"></button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
