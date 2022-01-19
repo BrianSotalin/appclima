@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,29 +12,53 @@
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container" id="contenedor">
-        <input type="text" id="ciudad" > 
-  
-        <button type="button"  onclick="getValueInput() " id="busqueda"> 
+        <input type="text" id="ciudad">
+
+        <button type="button" onclick="getValueInput()" class="busqueda" id="busqueda">
             <i class="fas fa-search"></i>
-        </button> 
-        
-        <p id="valueInput"></p> 
-        <div id="caja1">
+        </button>
+
+        <p id="valueInput"></p>
+        <div id="caja1" class="caja-1">
             <h1 id="tmp-valor"></h1>
-            <h1 id="tmp-descripcion"></h1>
+            <h1 id="tmp-descripcion" class="descripcion"></h1>
         </div>
-        <div id="caja2">
+        <div id="caja2" class="caja-2">
+            <img src="" id="bandera" alt="">
             <h2 id="ubicacion"></h2>
+
             <img src="" alt="" id="icono-animado">
         </div>
-        <div id="caja3">
-            <h3 id="text-inicio">Ingrese una ciudad</h3>
+        <div id="caja3" class="caja-3">
+            <h3 id="text-inicio" class="texto-inicio">Ingrese una ciudad</h3>
             <h1 id="viento"></h1>
+            <img src="./img/climaa.svg" id="weather" class="clima" alt="">
         </div>
-<button onclick="location.reload()" id="btn"></button>
+        <button onclick="location.reload()" id="btn" class="btn-reload"></button>
     </div>
+    <footer class="footer">
+        <p class="footer-message">
+            Hecho por Brian Sotalin <i class="fas fa-dragon"></i><br>
+            Sigueme:
+        </p>
+        <div class="social">
+            <a href="https://github.com/BrianSotalin" class="social-item">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/blady.10p/?hl=es" class="social-item">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+        <p class="footer-copyright">
+            @Copyright 2022 - All rights reserved.
+        </p>
+
+    </footer>
     <script src="app.js"></script>
 </body>
+
 </html>
