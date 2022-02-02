@@ -18,7 +18,7 @@ body {
     text-align: center;
     background: rgb(39, 38, 38);
     padding: 60px;
-    margin: 80px auto ;
+    margin: 50px auto ;
     border-radius: 50px;
 
 }
@@ -92,30 +92,25 @@ input {
 
 footer{
     display: block;
-    margin-top:30px;
+    margin-top:10px;
     text-align: center;
-    }
-    footer p{
-      font-size: 15px;
-      font-weight: bold;
-      color: darkslategrey;
-    }
-    footer .social{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    color: rgb(39, 38, 38);
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 13px;
+    transition: .3s ease all;
+    } 
+    footer:hover{
+        letter-spacing: 2px;
     }
     footer a{
-      margin: 30px ;
-     padding: 30px;
-      color: black;
-      font-size: 30px;
-      transition: .3s ease all;
-    
+        text-decoration: none;
+        color: crimson;
+        text-transform: uppercase;
+        font-weight: 600;
     }
-    footer a:hover{
-      color: darkslategrey;
-    }
+   
 
 /* #btn{
     display: block;
@@ -156,6 +151,9 @@ RESPONSIVE
     .busqueda {
         margin-top: 15px;
     }
+    /* footer{
+        margin-top: 10px;
+    } */
 
     /* .clima{
         height: 110px;
